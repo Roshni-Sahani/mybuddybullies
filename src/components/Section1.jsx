@@ -43,7 +43,9 @@ const Section1 = () => {
                         </div>
                     </div>
                 </div>
-                <div className='ellipse3'></div>
+                <div className='overflow-hidden'>
+                    <div className='ellipse3'></div>
+                </div>
             </div>
         </div>
     )
