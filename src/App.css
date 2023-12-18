@@ -59,7 +59,6 @@
 
 .buddy-card:hover {
   transform: scale(1.05);
-  transition: 400ms linear;
 }
 
 .buddy-card {
@@ -67,6 +66,8 @@
   background: var(--color-blue);
   padding: 39px 39px 150px 39px;
   height: 495px;
+  
+  transition: 400ms linear;
 }
 
 .max-width-404 {
@@ -326,7 +327,7 @@
 }
 
 .pt-58 {
-  padding-bottom: 58px;
+  padding-top: 58px;
 }
 
 .pt-110 {
@@ -419,15 +420,15 @@
 
 :root {
   /* font-size */
-  --fs-xs: 16px;
-  --fs-xxs: 14px;
-  --fs-s: 18px;
-  --fs-sm: 20px;
+  --fs-xs: 14px;
+  --fs-xxs: 10px;
+  --fs-s: 15px;
+  --fs-sm: 18px;
   --fs-md: 21px;
-  --fs-lg: 25px;
-  --fs-2lg: 30px;
-  --fs-xl: 50px;
-  --fs-xxl: 70px;
+  --fs-lg: 20px;
+  --fs-2lg: 25px;
+  --fs-xl: 40px;
+  --fs-xxl: 50px;
   /* color  */
   --color-white: #fff;
   --color-navyblue: #001D49;
@@ -484,7 +485,7 @@
 }
 
 .color-white {
-  color: var(--color-white);
+  color: var(--color-white) !important;
 }
 
 .bg-white {
@@ -511,6 +512,10 @@
   line-height: 150%;
 }
 
+.accordion-button {
+  color: #fff !important;
+}
+
 @media (min-width:576px) {
   .text-align-sm-end {
     text-align: end;
@@ -523,6 +528,19 @@
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
+  }
+
+  :root {
+    /* font-size */
+    --fs-xs: 16px;
+    --fs-xxs: 14px;
+    --fs-s: 18px;
+    --fs-sm: 20px;
+    --fs-md: 21px;
+    --fs-lg: 25px;
+    --fs-2lg: 30px;
+    --fs-xl: 50px;
+    --fs-xxl: 70px;
   }
 }
 

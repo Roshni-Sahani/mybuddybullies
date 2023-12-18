@@ -1,10 +1,11 @@
 import React from 'react'
+import { Container } from 'react-bootstrap'
 
 const Section3 = () => {
     return (
         <div>
             <div id="RoadMap" className='bg-blue2 position-relative z-1'>
-                <div className='container py-5'>
+                <Container className='py-5'>
                     <div className='d-flex align-items-center justify-content-center'>
                         <p className='text-white fs-xl fw-semibold lh-136 pb-63 ff-poppins'>Roadmap</p>
                     </div>
@@ -47,7 +48,7 @@ const Section3 = () => {
                             suprises for our community. Buddybullies
                             stronger together !!</p>
                     </div>
-                </div>
+                </Container>
                 <div className='pos-abs2 overflow-hidden'>
                     <div className='ellipse1'></div>
                 </div>
